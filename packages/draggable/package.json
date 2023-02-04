@@ -1,0 +1,9 @@
+{
+  "name": "draggable",
+  "version": "1.0.0",
+  "description": "Fully customizable draggable compatible with any Javascript framework",
+  "main": "index.js",
+  "keywords": [],
+  "author": "PixelForm",
+  "license": "MIT"
+}

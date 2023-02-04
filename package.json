@@ -1,0 +1,15 @@
+{
+    "homepage": "",
+    "name": "@editor/utils",
+    "description": "Editor utils for building custom editors in Javascript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "keywords": [],
+    "author": "PixelForm",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npm/cli.git"
+    },
+    "workspaces": ["./packages/*"],
+    "license": "MIT"
+}

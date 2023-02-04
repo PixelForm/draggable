@@ -1,1 +1,1 @@
-console.log('Hello world');
+// Main entry file
