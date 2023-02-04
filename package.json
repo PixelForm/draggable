@@ -1,6 +1,6 @@
 {
     "homepage": "",
-    "name": "@editor/utils",
+    "name": "@pixelform/editor-utils",
     "description": "Editor utils for building custom editors in Javascript",
     "version": "1.0.0",
     "main": "index.js",
