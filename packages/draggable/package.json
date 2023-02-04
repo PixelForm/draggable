@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fully customizable draggable compatible with any Javascript framework",
   "main": "index.js",
-  "keywords": [],
+  "keywords": ["draggable", "drag-and-drop", "drag", "drop", "dnd"],
   "author": "PixelForm",
   "license": "MIT"
 }
