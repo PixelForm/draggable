@@ -1,4 +1,4 @@
-function CSSTransforms(element, config) {
+function css_transforms(element, config) {
     let state = {
         c: [null, null],
         p: [0, 0],
@@ -71,4 +71,4 @@ function CSSTransforms(element, config) {
     } 
 }
 
-export default CSSTransforms
+export default css_transforms

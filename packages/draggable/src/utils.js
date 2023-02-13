@@ -1,6 +1,6 @@
-function listen(node, event, handler) {
-    node.addEventListener(event, handler)
-    return () => node.removeEventListener(event, handler)
+function listen(node, event, handler, options) {
+    node.addEventListener(event, handler, options)
+    return () => node.removeEventListener(event, handler, options)
 }
 
 export {

@@ -1,9 +1,9 @@
 import draggable from './src/internal'
-import CSSTransforms from './src/plugins'
+import css_transforms from './src/plugins'
 
 class Draggable {
     constructor(element, config = {}) {
-        draggable(element, {plugins: [CSSTransforms(element, config)]})
+        draggable(element, {plugins: [css_transforms(element, config)]})
     }
 }
 

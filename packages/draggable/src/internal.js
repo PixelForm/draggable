@@ -9,7 +9,7 @@ function draggable(element, config = {}) {
         ...config
     } 
 
-    let event1, event2, event3, trigger = internals.trigger || element 
+    let event1, event2, event3, trigger = internals.trigger || element
 
     function hook(name, ...args) {
         const { plugins } = internals
@@ -25,11 +25,13 @@ function draggable(element, config = {}) {
     function start(event) {
     	const x = event.pageX
         const y = event.pageY
+
+		const __document = event.target.ownerDocument
         
-		hook('start', {x, y})
+        hook('start', {x, y})
         
-        event2 = listen(document, 'mousemove', move)
-        event3 = listen(document, 'mouseup', end)
+        event2 = listen(__document, 'mousemove', move)
+        event3 = listen(__document, 'mouseup', end)
     }
 
     function move(event) {

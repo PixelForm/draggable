@@ -1,9 +1,9 @@
 {
   "name": "@pixelform/draggable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fully customizable draggable compatible with any Javascript framework",
   "main": "index.js",
-  "keywords": ["draggable", "drag-and-drop", "drag", "drop", "dnd"],
+  "keywords": ["draggable", "dragndrop", "drag", "drop", "dnd", "draggable", "react", "svelte", "vue", "angular", "solid"],
   "author": "PixelForm",
   "license": "MIT"
 }
