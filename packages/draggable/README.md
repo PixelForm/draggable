@@ -2,8 +2,6 @@
 Fully customizable draggable compatible with any Javascript framework.
 Built with flexibility in mind and simplicity to keep everything running smoothly.
 The draggable only requires a single DOM element as it's first argument and is meant to be independent of other elements.
-Built with flexibility in mind and simplicity to keep everything running smoothly.
-The draggable only requires a single DOM element as it's first argument and is meant to be independent of other elements.
 
 ## Installation
 ```
